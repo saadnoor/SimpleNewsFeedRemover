@@ -1,3 +1,9 @@
+.menu_page {
+    min-width: 350px;
+    background-color: lightblue;
+}
+
+
 /* This hides the news feed before the JS kicks in */
 div[id^='explorefeed_main_stream'],
 div[id^='topnews_main_stream'],

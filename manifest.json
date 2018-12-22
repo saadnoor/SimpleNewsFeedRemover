@@ -3,8 +3,8 @@
   "description" : "News feed removed for facebook",
   "version": "1.0",
   "browser_action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "newsFeedRemoverMenu.html",
+    "default_icon": "facebook.png"
   },
   "manifest_version": 2,
   "commands": {
