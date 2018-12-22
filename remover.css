@@ -4,7 +4,7 @@
 }
 
 
-/* This hides the news feed before the JS kicks in */
+/* Before loading the page, making the DOM object invisible and inactive */
 div[id^='explorefeed_main_stream'],
 div[id^='topnews_main_stream'],
 div.ticker_stream,
