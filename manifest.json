@@ -1,0 +1,50 @@
+{
+  "name": "Simple News Feed Remover",
+  "description" : "News feed removed for facebook",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  },
+  "permissions": [
+    "storage",
+    "http://www.facebook.com/*",
+    "https://www.facebook.com/*",
+    "http://web.facebook.com/*",
+    "https://web.facebook.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.facebook.com/*",
+        "https://www.facebook.com/*",
+        "http://web.facebook.com/*",
+        "https://web.facebook.com/*"
+      ],
+      "js": ["remover.js"],
+      "css": ["remover.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://www.facebook.com/*",
+        "https://www.facebook.com/*",
+        "http://web.facebook.com/*",
+        "https://web.facebook.com/*"
+      ],
+      "js": ["remover.js"],
+      "css": ["remover.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
