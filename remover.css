@@ -3,7 +3,6 @@
     background-color: lightblue;
 }
 
-
 /* Before loading the page, making the DOM object invisible and inactive */
 div[id^='explorefeed_main_stream'],
 div[id^='topnews_main_stream'],
