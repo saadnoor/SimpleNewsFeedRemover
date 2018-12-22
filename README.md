@@ -1,4 +1,4 @@
-# SimpleNewsFeedRemover
+# Simple News Feed Remover
 Newsfeed remover for facebook. No more scrolling, because there is nothing to scroll :P  
 
 **Installation Guideline**  
