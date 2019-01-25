@@ -1,5 +1,5 @@
 # Simple News Feed Remover
-Newsfeed remover for facebook. No more scrolling, because there is nothing to scroll :P  
+Newsfeed remover for facebook. No more scrolling, because there is nothing to scroll :P  Built this for my personal use. You can use it too.
 
 **Installation Guideline**  
 - Clone this project/ Download zip and extract files
